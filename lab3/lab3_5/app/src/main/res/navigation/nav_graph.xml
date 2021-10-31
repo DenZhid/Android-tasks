@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/fragment_1">
+
+    <fragment
+        android:id="@+id/fragment_1"
+        android:name="com.denzhid.lab3_5.fragments.Fragment1"
+        android:label="Fragment1">
+        <action
+            android:id="@+id/from_first_to_second"
+            app:destination="@id/fragment_2" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/fragment_2"
+        android:name="com.denzhid.lab3_5.fragments.Fragment2"
+        android:label="Fragment2">
+        <action
+            android:id="@+id/from_second_to_third"
+            app:destination="@id/fragment_3" />
+        <action
+            android:id="@+id/from_second_to_first"
+            app:destination="@id/fragment_1"/>
+    </fragment>
+
+    <fragment
+        android:id="@+id/fragment_3"
+        android:name="com.denzhid.lab3_5.fragments.Fragment3"
+        android:label="Fragment3">
+        <action
+            android:id="@+id/from_third_to_second"
+            app:destination="@id/fragment_2" />
+        <action
+            android:id="@+id/from_third_to_first"
+            app:destination="@id/fragment_1" />
+    </fragment>
+
+    <activity
+        android:id="@+id/activityAbout"
+        android:name="com.denzhid.lab3_5.activities.ActivityAbout"
+        android:label="ActivityAbout" />
+    <action
+        android:id="@+id/to_activity_about"
+        app:destination="@id/activityAbout" />
+</navigation>
