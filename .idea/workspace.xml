@@ -4,7 +4,47 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="49a45f9a-20ea-42e3-9cec-6c059b51284a" name="Default Changelist" comment="Update lab1" />
+    <list default="true" id="49a45f9a-20ea-42e3-9cec-6c059b51284a" name="Default Changelist" comment="Update lab1">
+      <change afterPath="$PROJECT_DIR$/lab3/lab3_2/app/src/main/java/com/denzhid/lab3_2/activities/Activity2.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab3/lab3_2/app/src/main/java/com/denzhid/lab3_2/activities/Activity3.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab3/lab3_2/app/src/main/java/com/denzhid/lab3_2/activities/ActivityAbout.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab3/lab3_2/app/src/main/res/layout/activity_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab3/lab3_2/app/src/main/res/layout/activity_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab3/lab3_2/app/src/main/res/layout/activity_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab3/lab3_2/app/src/main/res/layout/activity_about.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab3/lab3_2/app/src/main/res/menu/menu.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab3/lab3_3/app/src/main/java/com/denzhid/lab3_3/activities/Activity1.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab3/lab3_3/app/src/main/java/com/denzhid/lab3_3/activities/Activity2.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab3/lab3_3/app/src/main/java/com/denzhid/lab3_3/activities/Activity3.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab3/lab3_3/app/src/main/java/com/denzhid/lab3_3/activities/ActivityAbout.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab3/lab3_3/app/src/main/res/layout/activity_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab3/lab3_3/app/src/main/res/layout/activity_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab3/lab3_3/app/src/main/res/layout/activity_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab3/lab3_3/app/src/main/res/layout/activity_about.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab3/lab3_3/app/src/main/res/menu/menu.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab3/lab3_4/app/src/main/java/com/denzhid/lab3_4/activities/Activity1.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab3/lab3_4/app/src/main/java/com/denzhid/lab3_4/activities/Activity2.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab3/lab3_4/app/src/main/java/com/denzhid/lab3_4/activities/Activity3.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab3/lab3_4/app/src/main/java/com/denzhid/lab3_4/activities/ActivityAbout.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab3/lab3_4/app/src/main/res/layout/activity_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab3/lab3_4/app/src/main/res/layout/activity_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab3/lab3_4/app/src/main/res/layout/activity_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab3/lab3_4/app/src/main/res/layout/activity_about.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab3/lab3_4/app/src/main/res/menu/menu.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab3/lab3_5/app/src/main/java/com/denzhid/lab3_5/activities/ActivityAbout.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab3/lab3_5/app/src/main/java/com/denzhid/lab3_5/activities/MainActivity.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab3/lab3_5/app/src/main/java/com/denzhid/lab3_5/fragments/Fragment1.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab3/lab3_5/app/src/main/java/com/denzhid/lab3_5/fragments/Fragment2.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab3/lab3_5/app/src/main/java/com/denzhid/lab3_5/fragments/Fragment3.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab3/lab3_5/app/src/main/res/layout/activity_about.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab3/lab3_5/app/src/main/res/layout/fragment_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab3/lab3_5/app/src/main/res/layout/fragment_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab3/lab3_5/app/src/main/res/layout/fragment_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab3/lab3_5/app/src/main/res/menu/menu.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab3/lab3_5/app/src/main/res/navigation/nav_graph.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab1/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/lab1/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab1/app/src/main/res/layout/layout_2_16.xml" beforeDir="false" afterPath="$PROJECT_DIR$/lab1/app/src/main/res/layout/layout_2_16.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -22,7 +62,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="android.sdk.path" value="$ANDROID_SDK_ROOT$" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/lab3/lab3_1" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -53,6 +93,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Update lab1" />
