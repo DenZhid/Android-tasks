@@ -8,11 +8,12 @@
 
 
     <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/fragment1"
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
         <Button
-            android:id="@+id/to_second_button"
+            android:id="@+id/bnToSecond"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/to_second"
@@ -25,7 +26,7 @@
 
     </androidx.constraintlayout.widget.ConstraintLayout>
     <com.google.android.material.navigation.NavigationView
-        android:id="@+id/nav_view"
+        android:id="@+id/drawer_nav_view"
         android:layout_width="wrap_content"
         android:layout_height="match_parent"
         android:layout_gravity="start"
