@@ -24,10 +24,10 @@ class Fragment3: Fragment() {
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
-        binding.toFirstButton.setOnClickListener {
+        binding.bnToFirst.setOnClickListener {
             findNavController().navigate(R.id.from_third_to_first)
         }
-        binding.toSecondButton.setOnClickListener {
+        binding.bnToSecond.setOnClickListener {
             findNavController().navigate(R.id.from_third_to_second)
         }
     }

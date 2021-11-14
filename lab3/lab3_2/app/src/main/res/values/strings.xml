@@ -7,5 +7,5 @@
     <string name="activity_1">Activity 1</string>
     <string name="activity_2">Activity 2</string>
     <string name="activity_3">Activity 3</string>
-    <string name="about">Activity About</string>
+    <string name="title_about">Activity About</string>
 </resources>

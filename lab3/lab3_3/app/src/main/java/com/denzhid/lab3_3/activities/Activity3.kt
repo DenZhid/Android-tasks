@@ -14,20 +14,28 @@ class Activity3: AppCompatActivity() {
 
         val binding = Activity3Binding.inflate(layoutInflater)
         setContentView(binding.root)
-        binding.toFirstButton.setOnClickListener {
-            val intent = Intent(this, Activity1::class.java)
+
+        supportActionBar?.setDisplayHomeAsUpEnabled(true)
+
+        binding.bnToFirst.setOnClickListener {
+            val intent = Intent(this, MainActivity::class.java)
                 .addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP)
             startActivity(intent)
         }
-        binding.toSecondButton.setOnClickListener {
+        binding.bnToSecond.setOnClickListener {
             finish()
         }
-        binding.navView.setNavigationItemSelectedListener {
-            if (it.itemId == R.id.activity_about) {
+        binding.drawerNavView.setNavigationItemSelectedListener {
+            if (it.itemId == R.id.aboutActivity) {
                 binding.drawerLayout.closeDrawer(GravityCompat.START, true)
                 startActivity(Intent(this, ActivityAbout::class.java))
             }
             true
         }
+    }
+
+    override fun onSupportNavigateUp(): Boolean {
+        finish()
+        return true
     }
 }

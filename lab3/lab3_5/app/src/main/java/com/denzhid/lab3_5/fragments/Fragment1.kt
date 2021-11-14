@@ -4,9 +4,7 @@ import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import androidx.core.view.GravityCompat
 import androidx.fragment.app.Fragment
-import androidx.navigation.findNavController
 import androidx.navigation.fragment.findNavController
 import com.denzhid.lab3_5.R
 import com.denzhid.lab3_5.databinding.Fragment1Binding
@@ -26,7 +24,7 @@ class Fragment1: Fragment() {
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
-        binding.toSecondButton.setOnClickListener {
+        binding.bnToSecond.setOnClickListener {
             findNavController().navigate(R.id.from_first_to_second)
         }
     }
