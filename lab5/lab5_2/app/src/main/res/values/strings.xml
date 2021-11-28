@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">ImageViaExecutorService</string>
+    <string name="some_image_from_internet">Some Image From Internet</string>
+</resources>
