@@ -9,17 +9,19 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.lifecycle.Lifecycle
 import androidx.lifecycle.lifecycleScope
 import androidx.lifecycle.repeatOnLifecycle
-import kotlinx.coroutines.Job
-import kotlinx.coroutines.delay
-import kotlinx.coroutines.launch
+import kotlinx.coroutines.*
 import kotlin.random.Random
 
 class MainActivity : AppCompatActivity() {
     private lateinit var textSecondsElapsed: TextView
     private lateinit var sharedPref: SharedPreferences
-    private lateinit var coroutine: Job
+
+    @Volatile
+    private var isOnScreen = false
+
     @Volatile
     private var startingTime: Long = 0
+
     @Volatile
     private var secondsElapsedWhenThreadStarted: Long = 0
 
@@ -29,40 +31,41 @@ class MainActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        Log.i(
-            "Application_state",
-            "Applications has started"
-        )
+        Log.i("Application", "Application has started")
         setContentView(R.layout.activity_main)
         textSecondsElapsed = findViewById(R.id.textSecondsElapsed)
         sharedPref = getSharedPreferences(SECONDS, Context.MODE_PRIVATE)
-        coroutine = lifecycleScope.launch {
-            repeatOnLifecycle(Lifecycle.State.STARTED) {
-                while (true) {
-                    delay(Random.nextLong(2000))
-                    textSecondsElapsed.post {
-                        textSecondsElapsed.text =
-                            String.format(
-                                getString(R.string.current_seconds),
-                                getCurrentTimeElapsed()
-                            )
-                    }
-                }
+        sharedPref.edit().clear().apply()
+        lifecycleScope.launchWhenResumed() {
+            while (isOnScreen) {
+                wait()
+                textSecondsElapsed.text =
+                    String.format(getString(R.string.current_seconds), getCurrentTimeElapsed())
             }
         }
-        Log.i("Coroutine", "Coroutine has started")
+    }
+
+    private suspend fun wait() = withContext(Dispatchers.Default) {
+        delay(Random.nextLong(2000))
     }
 
     override fun onStart() {
         secondsElapsedWhenThreadStarted = sharedPref
             .getLong(SECONDS, secondsElapsedWhenThreadStarted)
+        isOnScreen = true
         startingTime = System.currentTimeMillis()
-        Log.i("Application_state", "The activity is visible again")
-        Log.i("Coroutine", "Coroutine is running again")
+        Log.i("Application", "Activity is visible again")
         super.onStart()
     }
 
+    override fun onResume() {
+        Log.i("Coroutine", "Coroutine is running again")
+        super.onResume()
+
+    }
+
     override fun onPause() {
+        isOnScreen = false
         Log.i("Coroutine", "Coroutine has stopped")
         super.onPause()
     }
@@ -72,8 +75,13 @@ class MainActivity : AppCompatActivity() {
             putLong(SECONDS, getCurrentTimeElapsed())
             apply()
         }
-        Log.i("Application_state", "The activity is no longer visible")
+        Log.i("Application", "Activity is no longer visible")
         super.onStop()
+    }
+
+    override fun onDestroy() {
+        Log.i("Coroutine", "Coroutine has been destroyed")
+        super.onDestroy()
     }
 
     private fun getCurrentTimeElapsed(): Long {

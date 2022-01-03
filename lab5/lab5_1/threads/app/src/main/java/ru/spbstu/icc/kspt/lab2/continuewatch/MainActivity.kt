@@ -23,13 +23,11 @@ class MainActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        Log.i(
-            "Application_state",
-            "Applications has started"
-        )
         setContentView(R.layout.activity_main)
         textSecondsElapsed = findViewById(R.id.textSecondsElapsed)
         sharedPref = getSharedPreferences(SECONDS, Context.MODE_PRIVATE)
+        sharedPref.edit().clear().apply()
+        Log.i("Application", "Application has started")
     }
 
     override fun onStart() {
@@ -43,9 +41,7 @@ class MainActivity : AppCompatActivity() {
                     textSecondsElapsed.post {
                         textSecondsElapsed.text =
                             String.format(
-                                getString(R.string.current_seconds),
-                                getCurrentTimeElapsed()
-                            )
+                                getString(R.string.current_seconds), getCurrentTimeElapsed())
                     }
                 } catch (e: InterruptedException) {
                     Thread.currentThread().interrupt()
@@ -55,7 +51,7 @@ class MainActivity : AppCompatActivity() {
         }
         backgroundThread.start()
         Log.i("Background_thread", "Background Thread has started")
-        Log.i("Application_state", "The activity is visible again")
+        Log.i("Application", "Activity is visible again")
         super.onStart()
     }
 
@@ -66,7 +62,7 @@ class MainActivity : AppCompatActivity() {
             putLong(SECONDS, getCurrentTimeElapsed())
             apply()
         }
-        Log.i("Application_state", "The activity is no longer visible")
+        Log.i("Application", "The activity is no longer visible")
         super.onStop()
     }
 

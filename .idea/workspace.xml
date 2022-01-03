@@ -4,16 +4,124 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="49a45f9a-20ea-42e3-9cec-6c059b51284a" name="Default Changelist" comment="Add tests" />
+    <list default="true" id="49a45f9a-20ea-42e3-9cec-6c059b51284a" name="Default Changelist" comment="Add tests">
+      <change afterPath="$PROJECT_DIR$/lab5/lab5_1/executionService/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab5/lab5_1/executionService/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab5/lab5_1/executionService/app/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab5/lab5_1/executionService/app/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab5/lab5_1/executionService/app/proguard-rules.pro" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab5/lab5_1/executionService/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab5/lab5_1/executionService/app/src/main/java/ru/spbstu/icc/kspt/lab2/continuewatch/MainActivity.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab5/lab5_1/executionService/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab5/lab5_1/executionService/app/src/main/res/drawable/ic_launcher_background.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab5/lab5_1/executionService/app/src/main/res/layout-land/activity_main.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab5/lab5_1/executionService/app/src/main/res/layout/activity_main.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab5/lab5_1/executionService/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab5/lab5_1/executionService/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab5/lab5_1/executionService/app/src/main/res/mipmap-hdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab5/lab5_1/executionService/app/src/main/res/mipmap-hdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab5/lab5_1/executionService/app/src/main/res/mipmap-mdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab5/lab5_1/executionService/app/src/main/res/mipmap-mdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab5/lab5_1/executionService/app/src/main/res/mipmap-xhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab5/lab5_1/executionService/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab5/lab5_1/executionService/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab5/lab5_1/executionService/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab5/lab5_1/executionService/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab5/lab5_1/executionService/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab5/lab5_1/executionService/app/src/main/res/values/colors.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab5/lab5_1/executionService/app/src/main/res/values/strings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab5/lab5_1/executionService/app/src/main/res/values/styles.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab5/lab5_1/executionService/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab5/lab5_1/executionService/gradle.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab5/lab5_1/executionService/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab5/lab5_1/executionService/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab5/lab5_1/executionService/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab5/lab5_1/executionService/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab5/lab5_1/executionService/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab5/lab5_1/kotlinCoroutines/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab5/lab5_1/kotlinCoroutines/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab5/lab5_1/kotlinCoroutines/app/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab5/lab5_1/kotlinCoroutines/app/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab5/lab5_1/kotlinCoroutines/app/proguard-rules.pro" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab5/lab5_1/kotlinCoroutines/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab5/lab5_1/kotlinCoroutines/app/src/main/java/ru/spbstu/icc/kspt/lab2/continuewatch/MainActivity.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab5/lab5_1/kotlinCoroutines/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab5/lab5_1/kotlinCoroutines/app/src/main/res/drawable/ic_launcher_background.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab5/lab5_1/kotlinCoroutines/app/src/main/res/layout-land/activity_main.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab5/lab5_1/kotlinCoroutines/app/src/main/res/layout/activity_main.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab5/lab5_1/kotlinCoroutines/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab5/lab5_1/kotlinCoroutines/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab5/lab5_1/kotlinCoroutines/app/src/main/res/mipmap-hdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab5/lab5_1/kotlinCoroutines/app/src/main/res/mipmap-hdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab5/lab5_1/kotlinCoroutines/app/src/main/res/mipmap-mdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab5/lab5_1/kotlinCoroutines/app/src/main/res/mipmap-mdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab5/lab5_1/kotlinCoroutines/app/src/main/res/mipmap-xhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab5/lab5_1/kotlinCoroutines/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab5/lab5_1/kotlinCoroutines/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab5/lab5_1/kotlinCoroutines/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab5/lab5_1/kotlinCoroutines/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab5/lab5_1/kotlinCoroutines/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab5/lab5_1/kotlinCoroutines/app/src/main/res/values/colors.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab5/lab5_1/kotlinCoroutines/app/src/main/res/values/strings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab5/lab5_1/kotlinCoroutines/app/src/main/res/values/styles.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab5/lab5_1/kotlinCoroutines/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab5/lab5_1/kotlinCoroutines/gradle.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab5/lab5_1/kotlinCoroutines/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab5/lab5_1/kotlinCoroutines/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab5/lab5_1/kotlinCoroutines/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab5/lab5_1/kotlinCoroutines/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab5/lab5_1/kotlinCoroutines/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab5/lab5_1/threads/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab5/lab5_1/threads/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab5/lab5_1/threads/app/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab5/lab5_1/threads/app/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab5/lab5_1/threads/app/proguard-rules.pro" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab5/lab5_1/threads/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab5/lab5_1/threads/app/src/main/java/ru/spbstu/icc/kspt/lab2/continuewatch/MainActivity.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab5/lab5_1/threads/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab5/lab5_1/threads/app/src/main/res/drawable/ic_launcher_background.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab5/lab5_1/threads/app/src/main/res/layout-land/activity_main.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab5/lab5_1/threads/app/src/main/res/layout/activity_main.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab5/lab5_1/threads/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab5/lab5_1/threads/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab5/lab5_1/threads/app/src/main/res/mipmap-hdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab5/lab5_1/threads/app/src/main/res/mipmap-hdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab5/lab5_1/threads/app/src/main/res/mipmap-mdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab5/lab5_1/threads/app/src/main/res/mipmap-mdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab5/lab5_1/threads/app/src/main/res/mipmap-xhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab5/lab5_1/threads/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab5/lab5_1/threads/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab5/lab5_1/threads/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab5/lab5_1/threads/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab5/lab5_1/threads/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab5/lab5_1/threads/app/src/main/res/values/colors.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab5/lab5_1/threads/app/src/main/res/values/strings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab5/lab5_1/threads/app/src/main/res/values/styles.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab5/lab5_1/threads/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab5/lab5_1/threads/gradle.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab5/lab5_1/threads/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab5/lab5_1/threads/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab5/lab5_1/threads/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab5/lab5_1/threads/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab5/lab5_1/threads/settings.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="homework_2" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RESET_MODE" value="HARD" />
   </component>
   <component name="ProjectId" id="1zauXvHyHnnvQmgKjvJPYJTWoYz" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -22,7 +130,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="android.sdk.path" value="$ANDROID_SDK_ROOT$" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/lab3/lab3_1" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/lab5/lab5_1/threads" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -55,7 +163,19 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="homework_2" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
